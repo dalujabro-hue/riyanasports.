@@ -30,6 +30,11 @@ const Contact = () => {
     setFormData({ name: '', phone: '', email: '', message: '' });
   };
 
+  const handleWhatsAppClick = () => {
+    const message = encodeURIComponent(`Hi! I'm ${formData.name}. ${formData.message || 'I would like to know more about your products.'}`);
+    window.open(`https://wa.me/${businessInfo.whatsapp}?text=${message}`, '_blank');
+  };
+
   return (
     <section id="contact" className="contact-section">
       <div className="container">
