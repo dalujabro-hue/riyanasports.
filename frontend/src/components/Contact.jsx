@@ -72,7 +72,22 @@ const Contact = () => {
               <Phone className="contact-icon" size={24} />
               <div>
                 <p className="contact-label">Phone</p>
-                <p className="contact-value">{businessInfo.phone}</p>
+                <a href={`tel:${businessInfo.phone}`} className="contact-value contact-link">{businessInfo.phone}</a>
+              </div>
+            </div>
+
+            <div className="contact-info-item">
+              <MessageCircle className="contact-icon" size={24} />
+              <div>
+                <p className="contact-label">WhatsApp</p>
+                <a 
+                  href={`https://wa.me/${businessInfo.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="contact-value contact-link"
+                >
+                  Chat with us
+                </a>
               </div>
             </div>
 
