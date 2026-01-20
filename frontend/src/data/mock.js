@@ -13,7 +13,8 @@ export const businessInfo = {
     full: "Gali No.3, Balaji Inter College, Balaji Nagar, Rambagh, Agra-282002, Uttar Pradesh"
   },
   hours: "Opens daily at 10:30 AM",
-  phone: "+91 XXXXX XXXXX",
+  phone: "+91 63951 58422",
+  whatsapp: "916395158422",
   email: "info@riyanasportshub.com",
   instagram: "https://www.instagram.com/riyanasportshub/",
   instagramHandle: "@riyanasportshub",
