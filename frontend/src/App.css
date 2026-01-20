@@ -385,12 +385,15 @@ section {
   align-items: center;
   gap: var(--spacing-small);
   box-shadow: 0 2px 8px rgba(0, 69, 52, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  border: 2px solid transparent;
 }
 
 .info-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 16px rgba(0, 69, 52, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 69, 52, 0.2);
+  background: white;
+  border-color: var(--brand-primary);
 }
 
 .info-icon {
